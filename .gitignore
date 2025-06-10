@@ -1,0 +1,8 @@
+# Virtual environment
+venv/
+
+# Debug frames
+debug_frames/
+
+# Environment variables
+.env
