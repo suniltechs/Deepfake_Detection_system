@@ -17,7 +17,7 @@ from dotenv import load_dotenv
 
 # Streamlit configuration
 st.set_page_config(
-    page_title="Deepfake Detector", 
+    page_title="DeepGuard : Unmask the Truth", 
     layout="wide", 
     initial_sidebar_state="expanded",
     page_icon="🕵️"
@@ -486,9 +486,9 @@ def main():
     # Hero section
     st.markdown("""
     <div style="text-align: center; margin-bottom: 2rem;">
-        <h1 class="header">Deepfake Detection System</h1>
+        <h1 class="header">DeepGuard</h1>
         <p style="font-size: 1.1rem; color: var(--text-muted); max-width: 800px; margin: 0 auto;">
-            Advanced AI-powered detection of manipulated media with state-of-the-art neural networks.
+            Advanced AI-powered deepfake detection of manipulated media with state-of-the-art neural networks.
             Upload images or videos to analyze for deepfake content.
         </p>
     </div>
